@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
   }
-  
   body{
       margin: 0;
       padding: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
-  
   .row{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -19,14 +17,10 @@
     color: #a332ff;
     font-size: 50px;
   }
-  
-  
-  .box{
+    .box{
     width: 100%;
     overflow: none;
   }
-  
-  
   .content-name{
     overflow: none;
     text-align: center;
@@ -40,8 +34,7 @@
     font-weight: bold;
     position: relative;
   }
-  
-  .content{
+   .content{
     border: 5px solid black;
     width: 90%;
     height: auto;
@@ -64,16 +57,13 @@
   .name3{
     background-color: #d49ce3;
   }
-  
-
   @media (min-width: 992px) {
     .col-lg-4 {
         float: left;
       width: 33.33%;
     }
   }
-
-  @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 770px) and (max-width: 990px) {
     .col-md-6,.col-md-12 {
       float: left;
     }
@@ -89,10 +79,9 @@
       width: 100px;
     }
   }
-  
-  @media (min-width: 0px) and (max-width: 767px) {
+   @media (min-width: 0px) and (max-width: 770px) {
     .col-sm-12 {
-        float: left;
+    float: left;
       width: 100%;
     }
     .content-name{
